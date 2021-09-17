@@ -21,6 +21,7 @@ function Header() {
           <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
           <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
           <li data-bs-target="#myCarousel" data-bs-slide-to="5"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="6"></li>
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -69,6 +70,16 @@ function Header() {
                 src="assets/images/image_node.png"
                 className="d-block w-100"
                 alt="RESTful APIs CRUD Web Services"
+              />
+              <p></p>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="container">
+              <img
+                src="assets/images/image_db.jpg"
+                className="d-block w-100"
+                alt="Cloud Database"
               />
               <p></p>
             </div>
