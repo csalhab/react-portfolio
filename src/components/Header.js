@@ -56,7 +56,7 @@ function Header() {
           <div className="carousel-item">
             <div className="container">
               <img
-                src="assets/images/image_androidStudioJavaAndroid.png"
+                src="assets/images/image_android-studio.png"
                 className="d-block w-100"
                 alt="Android Studio Java Android Mobile Engineering"
               />
