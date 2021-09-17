@@ -5,9 +5,9 @@ import "../styles/Header.css";
 function Header() {
   return (
     <>
-      <header className="header">
+      {/* <header className="header">
         <h1>Home</h1>
-      </header>
+      </header> */}
 
       <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
         <ol className="carousel-indicators">
