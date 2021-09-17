@@ -24,7 +24,7 @@ function Header() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="container">
-              <img src="./image_db_cloud.jpg" />
+              <img src="./assets/image_db_cloud.jpg" />
               <p></p>
             </div>
           </div>
