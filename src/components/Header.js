@@ -24,25 +24,25 @@ function Header() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="container">
-              <img src="./assets/image_db_cloud.jpg" />
+              <img src="assets/images/image_db_cloud.jpg" />
               <p></p>
             </div>
           </div>
           <div className="carousel-item">
             <div className="container">
-              <img src="./image_mern.png" />
+              <img src="assets/images/image_mern.png" />
               <p></p>
             </div>
           </div>
           <div className="carousel-item">
             <div className="container">
-              <img src="./image_debug.jpg" />
+              <img src="assets/images/image_debug.jpg" />
               <p></p>
             </div>
           </div>
           <div className="carousel-item">
             <div className="container">
-              <img src="./image_androidStudioJavaAndroid.png" />
+              <img src="assets/images/image_androidStudioJavaAndroid.png" />
               <p></p>
             </div>
           </div>
