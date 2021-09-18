@@ -1,8 +1,9 @@
 import React from "react";
 
 const styles = {
-  card: {
+  cardDesign: {
     width: "18rem",
+    paddingTop: "30px",
   },
 };
 
@@ -13,7 +14,7 @@ function Portfolio() {
         Portfolio:
         <div class="row">
           <div class="col">
-            <div class="card h-100" style={styles.card}>
+            <div class="card h-100" style={styles.cardDesign}>
               <img
                 src="assets/images/work-day-scheduler.png"
                 class="card-img-top"
@@ -35,7 +36,7 @@ function Portfolio() {
             </div>
           </div>
           <div class="col">
-            <div class="card h-100" style={styles.card}>
+            <div class="card h-100" style={styles.cardDesign}>
               <img
                 src="assets/images/work-weather-dashboard.png"
                 class="card-img-top"
@@ -58,7 +59,7 @@ function Portfolio() {
             </div>
           </div>
           <div class="col">
-            <div class="card h-100" style={styles.card}>
+            <div class="card h-100" style={styles.cardDesign}>
               <img
                 src="assets/images/work-note-taker.png"
                 class="card-img-top"
@@ -80,7 +81,7 @@ function Portfolio() {
             </div>
           </div>
           <div class="col">
-            <div class="card h-100" style={styles.card}>
+            <div class="card h-100" style={styles.cardDesign}>
               <img
                 src="assets/images/generate-password.png"
                 class="card-img-top"
@@ -103,7 +104,7 @@ function Portfolio() {
             </div>
           </div>
           <div class="col">
-            <div class="card h-100" style={styles.card}>
+            <div class="card h-100" style={styles.cardDesign}>
               <img
                 src="assets/images/work-bucket.png"
                 class="card-img-top"
@@ -126,7 +127,7 @@ function Portfolio() {
             </div>
           </div>
           <div class="col">
-            <div class="card h-100" style={styles.card}>
+            <div class="card h-100" style={styles.cardDesign}>
               <img
                 src="assets/images/workout-tracker.png"
                 class="card-img-top"
@@ -148,7 +149,7 @@ function Portfolio() {
             </div>
           </div>
           <div class="col">
-            <div class="card h-100" style={styles.card}>
+            <div class="card h-100" style={styles.cardDesign}>
               <img
                 src="assets/images/tech-blog.png"
                 class="card-img-top"
@@ -170,7 +171,7 @@ function Portfolio() {
             </div>
           </div>
           <div class="col">
-            <div class="card h-100" style={styles.card}>
+            <div class="card h-100" style={styles.cardDesign}>
               <img
                 src="assets/images/budget-tracker.png"
                 class="card-img-top"
