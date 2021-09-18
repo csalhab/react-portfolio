@@ -24,6 +24,7 @@ const styles = {
 function Contact() {
   return (
     <div style={styles.formContainer}>
+      Contact:
       <form
         style={styles.form}
         action="mailto:claudiacorreasalhab@gmail.com"
