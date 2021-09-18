@@ -1,7 +1,5 @@
 import React from "react";
 
-// We declare an object called styles that will contain a few objects for card and heading styles
-// Notice that each key lists CSS styles in camel case
 const styles = {
   card: {
     margin: 20,
@@ -17,13 +15,17 @@ const styles = {
   },
 };
 
-// In Navbar, we can assign a style from an object by using curly braces
-function Navbar() {
+function Navbar({ currentPage, handlePageChange }) {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a
+            class="navbar-brand"
+            href="#home"
+            onClick={() => handlePageChange("Home")}
+            className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+          >
             Claudia Correa Salhab - Technologies I Know & About Me
           </a>
           <button
@@ -40,12 +42,26 @@ function Navbar() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="/portfolio">
+                <a
+                  class="nav-link"
+                  href="#portfolio"
+                  onClick={() => handlePageChange("Portfolio")}
+                  className={
+                    currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+                  }
+                >
                   Portfolio
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact">
+                <a
+                  class="nav-link"
+                  href="#blog"
+                  onClick={() => handlePageChange("Contact")}
+                  className={
+                    currentPage === "Contact" ? "nav-link active" : "nav-link"
+                  }
+                >
                   Contact
                 </a>
               </li>

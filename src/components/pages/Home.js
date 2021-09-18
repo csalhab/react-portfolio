@@ -1,8 +1,9 @@
 import React from "react";
 // Here we are importing a CSS file as a dependency
-import "../styles/Header.css";
+import "../../styles/Header.css";
+import Card from "./Card";
 
-function Carousel() {
+function Home() {
   return (
     <>
       {/* <header className="header">
@@ -85,8 +86,9 @@ function Carousel() {
           </div>
         </div>
       </div>
+      <Card />
     </>
   );
 }
 
-export default Carousel;
+export default Home;
