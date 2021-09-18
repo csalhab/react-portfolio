@@ -4,7 +4,7 @@
 
 This portfolio is a React app using 7 unique functional components. The app also incorporates elevating state in order to control the top navigation system. Inline styles are also applied to override styles within components JSX UI.
 
-[You may find the React Portfolio here:](https://csalhab.github.io/react-portfolio/)
+[>>> Click here to find the React Portfolio <<<](https://csalhab.github.io/react-portfolio/)
 
 Bootstrap CSS Framework is leveraged delivering top nav items as well as forms and card designs for portfolio items.
 
