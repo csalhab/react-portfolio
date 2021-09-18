@@ -105,7 +105,7 @@ function Portfolio() {
           <div class="col">
             <div class="card" style={styles.card}>
               <img
-                src="assets/images/bucket.png"
+                src="assets/images/work-bucket.png"
                 class="card-img-top"
                 alt="Bucket"
               />
